@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Skills from './components/Skills'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main id="home">
+        <div className="main-text">
+          <h1>Oscar Sherelis</h1>
+          <h2>Web developer</h2>
+          <Skills></Skills>
+        </div>
+      </main>
+      <section className="skills-projects">
+
+      </section>
+      <section id="contact">
+          <form action="https://formspree.io/mrgywkqo" method="POST">
+            <h3>Contact</h3>
+                <input type="email" name="_replyto" placeholder="Your email" required></input>
+                <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+      </section>
+      <footer>
+        <a href="#home">Home</a>
+        <a href="#contact">Contact</a>
+      </footer>
     </div>
   );
 }
