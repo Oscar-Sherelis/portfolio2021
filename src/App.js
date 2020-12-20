@@ -1,5 +1,6 @@
 import './App.css';
-import Skills from './components/Skills'
+import Skills from './components/Skills';
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         </div>
       </main>
       <section className="skills-projects">
-
+        <Projects></Projects>
       </section>
       <section id="contact">
           <form action="https://formspree.io/mrgywkqo" method="POST">
