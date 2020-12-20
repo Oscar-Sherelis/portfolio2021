@@ -12,9 +12,7 @@ function App() {
           <Skills></Skills>
         </div>
       </main>
-      <section className="skills-projects">
         <Projects></Projects>
-      </section>
       <section id="contact">
           <form action="https://formspree.io/mrgywkqo" method="POST">
             <h3>Contact</h3>
@@ -25,6 +23,7 @@ function App() {
       </section>
       <footer>
         <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </footer>
     </div>
